@@ -77,7 +77,7 @@ const Register = props => {
       setCount(1);
     }
     return () => {};
-  }, []);
+  });
 
   return (
     <Container>
